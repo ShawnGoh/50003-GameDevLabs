@@ -68,7 +68,8 @@ public class PlayerController : MonoBehaviour
             marioAnimator.SetBool("onGround", onGroundState);
         }
 
-        if (col.gameObject.CompareTag("Obstacles")) {
+        if (col.gameObject.CompareTag("Obstacles") && col.gameObject.transform.position.y<marioBody.position.y) {
+            Debug.Log("On top of obstacle");
             onGroundState = true;
             marioAnimator.SetBool("onGround", onGroundState);
         }
@@ -94,6 +95,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetKey("space") && onGroundState){
+            Debug.Log("Jump Key Released");
             marioBody.AddForce(Vector2.up * upSpeed, ForceMode2D.Impulse);
             onGroundState = false;
             marioAnimator.SetBool("onGround", onGroundState);
