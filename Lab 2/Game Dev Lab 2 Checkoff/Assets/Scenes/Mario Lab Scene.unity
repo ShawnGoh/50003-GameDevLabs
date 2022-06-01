@@ -1261,8 +1261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 70
-  upSpeed: 50
-  maxSpeed: 50
+  upSpeed: 35
+  maxSpeed: 45
   GameOverScreen: {fileID: 0}
 --- !u!50 &1286218763
 Rigidbody2D:
