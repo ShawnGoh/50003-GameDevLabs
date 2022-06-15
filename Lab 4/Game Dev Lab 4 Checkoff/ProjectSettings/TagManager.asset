@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Obstacles
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - QuestionBox
+  - Water
+  - UI
+  - Obstacles
+  - Spawned
+  - BackGround
+  - BG 1
+  - BG 2
+  - BG 3
+  - BG 4
+  - BG 5
+  - BG 6
+  - BG 7
+  - BG 8
+  - BG 9
+  - BG 10
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2037878133
+    locked: 0
