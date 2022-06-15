@@ -43,7 +43,7 @@ public  class EnemyController : MonoBehaviour
 	void  Update()
 	{
 		if(mariodead){
-			enemyBody.transform.Rotate(0, 20, 0);
+			enemyBody.transform.Rotate(gameConstants.enemyRotation);
 		}else{
 			if (Mathf.Abs(enemyBody.position.x  -  originalX) <  gameConstants.maxOffset)
 				{// move goomba

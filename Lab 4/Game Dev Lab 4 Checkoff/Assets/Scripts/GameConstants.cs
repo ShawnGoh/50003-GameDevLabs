@@ -14,29 +14,20 @@ public class GameConstants : ScriptableObject
     Vector3 goombaSpawnPointStart = new Vector3(2.5f, -0.45f, 0); // hardcoded location
     // .. other reset values 
 
-    // for Consume.cs
-    public  int consumeTimeStep =  10;
-    public  int consumeLargestScale =  4;
     
-    // for Break.cs
+    // for BreakBrick.cs
     public  int breakTimeStep =  30;
     public  int breakDebrisTorque =  10;
     public  int breakDebrisForce =  10;
     
-    // for SpawnDebris.cs
-    public  int spawnNumberOfDebris =  10;
-    
-    // for Rotator.cs
-    public  int rotatorRotateSpeed =  6;
-    
-    // for testing
-    public  int testValue;
-
     public int maxOffset = 5;
 
     public int enemyPatroltime = 5;
 
     public int groundSurface = -1;
+
+    public Vector3 enemyRotation = new Vector3(0, 20, 0);
+
     // Start is called before the first frame update
     void Start()
     {
