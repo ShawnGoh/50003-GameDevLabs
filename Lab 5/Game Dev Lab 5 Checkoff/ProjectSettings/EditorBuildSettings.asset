@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MarioLab_Part2/MarioLevel1_Part2.unity
+    guid: c6133395be087f246afaab09003b5127
+  - enabled: 1
+    path: Assets/Scenes/MarioLab_Part2/MarioLevel2_Part2.unity
+    guid: af35e5909979be6448a696046ebc1051
+  m_configObjects: {}
